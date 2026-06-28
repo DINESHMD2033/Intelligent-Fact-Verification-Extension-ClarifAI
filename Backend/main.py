@@ -21,7 +21,7 @@ import tempfile
 
 try:
     import google.generativeai as genai
-    AI_API_KEY = "AIzaSyBcaYZEd5MpiInIcQd6GMz2tsNyiU7qISg"
+    AI_API_KEY = "Your API key"
     genai.configure(api_key=AI_API_KEY)
     
     # Initialize advanced analysis engine
