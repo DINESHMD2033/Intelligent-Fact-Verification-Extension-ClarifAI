@@ -35,23 +35,43 @@ The system combines:
 
 # 📂 Repository Structure
 
-```
 ClarifAI/
 │
-├── Extension/             
+├── Backend/
+│   ├── Data/
+│   │
+│   ├── clarif_model/
+│   │   ├── config.json
+│   │   ├── id2label.json
+│   │   ├── label2id.json
+│   │   ├── model
+│   │   ├── special_tokens_map.json
+│   │   ├── tokenizer.json
+│   │   ├── tokenizer_config.json
+│   │   └── vocab.txt
+│   │
+│   ├── main.py
+│   └── requirements.txt
+│
+├── Extension/
+│   ├── background.js
+│   ├── content.js
+│   ├── content_script.js
+│   ├── icon16.png
+│   ├── icon48.png
+│   ├── icon128.png
 │   ├── manifest.json
+│   ├── popup.css
 │   ├── popup.html
 │   ├── popup.js
-│   ├── content.js
-│   ├── background.js
-│   └── assets/
+│   ├── sample/
+│   ├── serve_api.py
+│   └── youtube-content.js
 │
-├── Backend/                
-│
-├── Demo/                   
+├── Working demo/
+│   └── Drive link
 │
 └── README.md
-```
 
 ---
 
